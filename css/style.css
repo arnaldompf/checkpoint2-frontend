@@ -1,15 +1,13 @@
 .logo{
     color:#5e2129
 }
-.texto_destaque h1{
+header h1{
     color: white;
 }
-.texto_destaque strong{
+header strong{
     color:white;
 }
-.imagem_fundo img{
-    width: 700px;
-}
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -95,11 +93,11 @@ footer{
     background-color: grey;
     height: 200px;
 }
-.imagem_fundo{
+header{
     display: flex;
     background-image: url(../images/banner_vinhos.jpg);
     background-size: cover;
-    height: 1300px;
+    height: 600px;
 }
 .loja-vinhos{
     display:flex;
