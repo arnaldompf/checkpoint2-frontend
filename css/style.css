@@ -4,6 +4,9 @@
 .texto_destaque h1{
     color: #5e2129;
 }
+.imagem_fundo img{
+    width: 700px;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -86,4 +89,7 @@ footer{
     flex-direction: column;
     background-color: grey;
     height: 200px;
+}
+.imagem_fundo{
+    display: flex;
 }
