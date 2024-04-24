@@ -2,7 +2,10 @@
     color:#5e2129
 }
 .texto_destaque h1{
-    color: #5e2129;
+    color: white;
+}
+.texto_destaque strong{
+    color:white;
 }
 .imagem_fundo img{
     width: 700px;
@@ -60,11 +63,12 @@ ul li a{
     border-radius: 5px;
     cursor: pointer;
 }
+
+
 details{
     width: 500px;
     margin-bottom: 3px;
     
-
 }
 
 summary{
@@ -82,6 +86,7 @@ footer{
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 20px;
 }
 .newsletter{
     display: flex;
@@ -92,4 +97,7 @@ footer{
 }
 .imagem_fundo{
     display: flex;
+    background-image: url(../images/banner_vinhos.jpg);
+    background-size: cover;
+    height: 1300px;
 }
