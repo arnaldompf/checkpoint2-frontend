@@ -1,3 +1,9 @@
+.logo{
+    color:#5e2129
+}
+.texto_destaque h1{
+    color: #5e2129;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -14,8 +20,12 @@ nav ul a{
     color: black;
 }
 
-ul{
+ul {
     list-style: none;
+    
+}
+ul li a{
+    text-decoration: none;
 }
 
 .btn-carrinho{
@@ -55,8 +65,25 @@ details{
 }
 
 summary{
-    background-color: #ddd;
+    background-color: white;
     padding: 20px;
     border-radius: 5px;
 }
-
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.duvida{
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.newsletter{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: grey;
+    height: 200px;
+}
