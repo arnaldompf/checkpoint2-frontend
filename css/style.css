@@ -103,3 +103,12 @@ header{
     display:flex;
     justify-content: space-around;
 }
+.botao_form{
+    padding: 10px;
+    border:none;
+    border-radius: 5px; 
+    background-color: #333;
+    color: #FFF;
+    font-size: 1.1rem;
+    cursor: pointer;
+ }

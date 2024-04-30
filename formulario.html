@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Formulário de Contato</title>
 </head>
 <body>
@@ -25,12 +26,12 @@
                     </div><br>
                     <div>
                         <legend>Mensagem:</legend>
-                        <label for="txtArea"></label>
-                        <textarea name="" id="txtArea" cols="50" rows="5"></textarea>
+                        <label for="message"></label>
+                        <textarea name="message" id="message" cols="50" rows="5"></textarea>
                     </div><br>
                     <div>
-                        <input type="submit" value="Enviar" onclick="enviarFormulario()">
-                        <input type="reset" value="Limpar">
+                        <button class="botao_form" type="submit" onclick="validarFormulario()">Enviar</button>
+                        <button class="botao_form" type="reset">Limpar</button>
                     </div>
                 </fieldset>
             </form>
