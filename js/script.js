@@ -16,6 +16,16 @@ function validarFormulario(){
 
 
 }
+
+// Verificação Idade
+
+function liberarsite() {
+    window.location.href = "pagliberada.html"
+}
+
+function redirect() {
+    window.location.href = "https://google.com"
+}
 function logar(){
     let login = document.getElementById('login').value;
     let senha = document.getElementById('senha').value;
