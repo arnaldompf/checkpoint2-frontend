@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões</title>
+</head>
+<body>
+    <script src="js/script.js"></script>
+    <h1>Sugestão de Harmonização</h1>
+    <b>Como escolher sua comida baseada no vinho comprado em nossa loja?</b>
+    <p>
+        Selecione o vinho comprado abaixo:
+        <select  id="select1">
+            <option value="Vinho Tinto">Vinho Tinto</option>
+            <option value="Vinho Branco">Vinho Branco</option>
+            <option value="Vinho Rosé">Vinho Rosé</option>
+        </select>
+    </p>
+    <p>
+        Sua escolha foi:
+        <span class="output"></span>
+    </p>
+    <p>
+        Sua escolha harmoniza com:
+        <span class="harm_tinto"></span>
+        <span class="harm_branco"></span>
+        <span class="harm_rose"></span>
+    </p>
+    <button onclick="getOption()">Verifique a escolha</button>
+    
+</body>
+</html>
