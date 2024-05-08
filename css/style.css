@@ -1,11 +1,14 @@
+/* IMPORTACAO DE FONTE DO GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+body{
+    font-family: "Roboto";
+
+}
 .logo{
     color:#5e2129
-}
-header h1{
-    color: white;
-}
-header strong{
-    color:white;
 }
 
 nav{
@@ -19,7 +22,16 @@ nav ul{
     gap: 10px;
     list-style: none;
 }
+ul a:hover{
+    opacity: 90%;
+    color: #dc82dd;
+}
+ ul a:active{
+    opacity: 30%;
+}
 nav ul a{
+    cursor: pointer;
+    transition: all 0.3s;
     text-decoration: none;
     color: black;
 }
@@ -30,6 +42,23 @@ ul {
 }
 ul li a{
     text-decoration: none;
+}
+header h1{
+    color: white;
+}
+header strong{
+    color:white;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-image: url(../images/banner_vinhos.jpg);
+    background-size: cover;
+    height: 800px;
+}
+header h1{
+    margin-bottom: 5px;
 }
 
 .agepopup{
@@ -141,7 +170,31 @@ summary{
 footer{
     margin-top: 50px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+}
+footer p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 100px;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pagamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .duvida{
     background-color: #ddd;
@@ -157,14 +210,10 @@ footer{
     background-color: grey;
     height: 200px;
 }
-header{
-    display: flex;
-    background-image: url(../images/banner_vinhos.jpg);
-    background-size: cover;
-    height: 600px;
-}
+
 .loja-vinhos{
     display:flex;
+    flex-direction: column;
     justify-content: space-around;
 }
 .botao_form{
@@ -175,4 +224,19 @@ header{
     color: #FFF;
     font-size: 1.1rem;
     cursor: pointer;
+ }
+
+ .loja-vinhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ .loja-vinhos img{
+    height: 200px;
+    
+ }
+ figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
  }
