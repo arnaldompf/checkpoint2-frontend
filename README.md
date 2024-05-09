@@ -6,4 +6,3 @@ Integrantes do grupo
 
 Obs.: 
 - As alterações do HTML só foram feitas na pagliberada.html devido ao javascript de validação de idade na index.html. 
-- O style.css só altera a pagliberada.html
